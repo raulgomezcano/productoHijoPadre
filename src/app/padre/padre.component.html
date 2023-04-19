@@ -1,4 +1,4 @@
-<app-hijo (listaPedidos)="agregarPedidop($event)"></app-hijo>
+<app-hijo (enviarDatos)="agregarPedidop($event)"></app-hijo>
 <ul>
     <li *ngFor="let pedido of listaPedidos">
       {{pedido._idPedido}} {{pedido._idCliente}} {{pedido._nombreCliente}}

@@ -8,7 +8,7 @@ import { Pedido } from '../pedido/pedido';
 })
 export class PadreComponent {
   listaPedidos:Pedido[]=[]
-  agregarPedidop(pedidos:any){
+  agregarPedidop(pedidos:Pedido[]){
     this.listaPedidos=pedidos
   }
 }
